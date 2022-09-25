@@ -37,6 +37,7 @@ a {
 }
 
 .nav-link {
+    margin-top: 18%;
     line-height: 2.5;
 }
 
@@ -45,8 +46,10 @@ li a {
 }
 
 #navhead {
+    font-size: larger;
     line-height: 3;
     color: white;
+    font-weight: bolder;
 }
 
 #c {
@@ -74,6 +77,10 @@ h1 {
 #reflink {
     display: inline;
     color: royalblue;
+}
+
+code {
+    background-color: #04AA6D;
 }
 
 
