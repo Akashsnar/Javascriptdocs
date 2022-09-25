@@ -1,0 +1,98 @@
+#main-doc {
+    /* position: relative; */
+    position: absolute;
+    width: 80%;
+    margin-left: 20%;
+}
+
+body {
+    background-color: rgb(255, 227, 199);
+}
+
+#navbar {
+    position: fixed;
+    background-color: #333;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 19%;
+    height: 100%;
+    text-align: center;
+    /* margin-top: 0%; */
+}
+
+#navbar a:hover {
+    background-color: #04AA6D;
+    color: black;
+}
+
+#navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link {
+    line-height: 2.5;
+}
+
+li a {
+    display: block;
+}
+
+#navhead {
+    line-height: 3;
+    color: white;
+}
+
+#c {
+    width: 40%;
+    line-height: 2;
+    background-color: rgb(236, 233, 233);
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+}
+
+h1 {
+    margin-left: 2%;
+    font-size: 200%;
+}
+
+#te,
+#refernce {
+    display: inline;
+    margin-left: 1%;
+    color: #333;
+    /* width: 50%; */
+}
+
+#reflink {
+    display: inline;
+    color: royalblue;
+}
+
+
+/*
+  display: block;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #f7f7f7;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+*/
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
